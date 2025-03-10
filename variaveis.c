@@ -6,6 +6,16 @@ int main(){
     int idade;
     float peso;
 
-    idade = 25;
-    peso = 90; 
+    //idade = 25;
+    //peso = 90;
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    printf("Digite seu peso: ");
+    scanf("%f", &peso);
+    
+    printf("Nome: %s \n", razao_social);
+    printf("Idade: %d \n", idade);
+    printf("Peso: %.2f \n", peso);
 }
